@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>CCPi Core Library – A code inventory</title>
+
+		<meta name="description" content="An inventory for code to be included in the CCPi Core Library">
+		<meta name="author" content="Edoardo Pasca">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Custom STFC theme -->
+		<link rel="stylesheet" href="css/custom.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="js/d3.min.js"></script>
+		
+		<script>
+		<!-- This if you want to do something more in the presentation like building graphs with d3-->>
+		
+		$(document).ready(function(){
+				
+			
+		});
+
+		</script>
+		
+	</head>
+
+	<body>
+		
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>CCPi Core Library</h1>
+					<h3>A code inventory</h3>
+					<p>
+						<small>Edoardo Pasca</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Purpose</h2>
+						<ul >
+							<li class="fragment fade-up">gather <b>all algorithms</b> developed in the years </li>
+							<li class="fragment fade-up">make them <b>available</b> to a larger audience</li>
+							<li class="fragment fade-up">integrating them <b>in a library</b></li>
+							<li class="fragment fade-up"><b>accessible by</b> Python, Matlab, Avizo ...</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Requirements</h2>
+						<ul>
+							<li >Source Code</li>
+							<li ><b>Documentation</b></li>
+							<li >Test case and/or dataset</li>
+							<li >Open Source: BSD/Free for academic use</li>
+							<li >One repository (GitHub?)</li>
+						</ul>
+					</section>
+				</section>
+				<section >
+					<section data-markdown style="font-size: 80%" >
+					<script type="text/template" class="fragment fade-up">
+						## Inventory
+						
+						1. Nikon X-Ray CT Machine Codes
+						* Image Quantification Algorithms
+						* CGLS code
+						* Daniil's reconstruction code
+						* Tomography beam hardening code 
+						* Sophia's reconstruction code
+						* Diamond SAVU framework
+						* Katsevech helical scan CT reconstruction code
+						* Nicola's reconstruction code
+						* Diamond Nexus Reader
+						* Hamish Carr's SimpleFlex code
+						* Tiger Toolbox
+						
+					</script>
+						
+						
+					</section>
+					
+					
+
+					
+				</section>
+				
+				
+				
+
+				
+			
+			</div> 
+
+		</div>
+		
+		<div id="stfc-footer">
+			<img src="img/STFCMediumColourTrans.png">
+			<div class="stfc-footer-title">CCPi Core Library</div>  
+			<div class="stfc-footer-name">Edoardo Pasca, SCD 20.03.2017</div>  
+		</div>
+		
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				minScale: 0.2,
+				maxScale: 1.5,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

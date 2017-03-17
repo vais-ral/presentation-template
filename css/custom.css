@@ -1,0 +1,87 @@
+#stfc-logo {
+	float: right;
+	max-width: 150px;
+	margin-top: -3%;
+}
+
+#stfc-header {
+	position: fixed;
+	top: 100px;
+	left: 20px;
+	width: 98%;
+}
+
+#stfc-header div {
+	position: relative;
+	font-size: 1.2em;
+	border-top: 1px solid #261748;
+	width: 46%;
+	padding: 5px;
+}
+
+.stfc-footer-title {
+	position: fixed;
+	bottom: 20px;
+	left: 500px;
+	text-align : center;
+}
+
+.stfc-footer-name {
+	position: fixed;
+	right: 100px;
+	bottom: 20px;
+	text-align: right;
+}
+
+#stfc-footer {
+	position: fixed;
+	bottom: 8px;
+	left: 20px;
+	width: 90%;
+	font-family: Helvetica, sans-serif;
+}
+
+#stfc-footer img {
+	width: 27%;	
+	max-width: 374px;
+}
+
+.reveal b {
+	color: #a44;
+	font-weight: bold;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #174685;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+  
+  
+  th.des:after {
+      content: "\21E9";
+  }
+    
+  th.aes:after {
+     content: "\21E7";
+  }
+  
+  /* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background-color: #eee; 
+	}
+	
+	
