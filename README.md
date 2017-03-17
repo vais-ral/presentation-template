@@ -13,4 +13,4 @@ you can change styles with the custom.css in the css directory. Moreover one can
 
 ## Screenshot
 
-[![Screenshot](https://github.com/vais-ral/presentation-template/blob/master/img/screenshot.png?raw=true)
+![Screenshot](https://github.com/vais-ral/presentation-template/blob/master/img/screenshot.png?raw=true)
